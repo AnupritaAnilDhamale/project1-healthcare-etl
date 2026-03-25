@@ -123,16 +123,12 @@ airflow dags trigger healthcare_pipeline
 
 ---
 
-## 💡 What Recruiters Should Notice
+## 💡 
 
-- **Real schema design:** Fact/Dimension model, not just flat files
-- **Airflow DAG:** Proper task dependencies, retry logic, failure alerting
+- **Schema design:** Fact/Dimension model
+- **Airflow DAG:** Task dependencies, retry logic, failure alerting
 - **dbt models:** Layered staging → mart, with tests
 - **Quality checks:** Null rates, referential integrity, type validation
 - **Scale:** Designed for 100M+ record production workloads
 
----
 
-## 📄 License
-
-MIT
